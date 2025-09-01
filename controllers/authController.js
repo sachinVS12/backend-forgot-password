@@ -21,7 +21,7 @@ const signup = async (req, res) => {
   }
 };
 
-// Login
+// Login parts
 const login = async (req, res) => {
   const { email, password } = req.body;
 
